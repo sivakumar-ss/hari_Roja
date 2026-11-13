@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Branded launch screen: brand gradient with the app mark centred. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="315"
+                android:centerColor="#4338CA"
+                android:endColor="#7C3AED"
+                android:startColor="#1E1B4B"
+                android:type="linear" />
+        </shape>
+    </item>
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/splash_logo" />
+    </item>
+</layer-list>
